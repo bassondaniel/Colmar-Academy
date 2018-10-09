@@ -315,6 +315,7 @@ section.banner {
   text-align: center;
   padding-top: 24px;
   padding bottom: 8px;
+  text-transform: uppercase;
 }
 
 .thesis-content {
@@ -342,4 +343,28 @@ video {
 #thesis div:first-child{
   background-color: #e8e8e8;
   padding-top: 0px;
+}
+
+/* Footer */
+
+footer {
+  height: 64px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid #C5CAD7;
+}
+
+footer span {
+  margin-left: 24px;
+  font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
+  color: #687083;
+}
+
+footer nav ul li a {
+  font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
+  color: #687083;
 }
