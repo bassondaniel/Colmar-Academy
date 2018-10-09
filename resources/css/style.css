@@ -17,7 +17,7 @@ h1  {
   color: #1B202B;
   font-size: 2.5rem;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
   color: #424242;
   font-size: 1.4rem;
   line-height: 1.5;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 h5 {
@@ -41,7 +41,7 @@ h6 {
   font-weight: 700;
   color: #1B202B;
   font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -113,15 +113,14 @@ nav.mobile {
 /* Section 1 Banner*/
 
 section.banner {
-  top: 64px;
+  margin-top: 32px;
   background-color: #e8e8e8;
-
 }
 
 .banner-img {
   width: 60%;
   height: auto;
-  margin: 32px 40px;
+  margin: 32px 24px;
 }
 
 .banner-img img {
@@ -135,6 +134,7 @@ section.banner {
   justify-content: center;
   align-items: left;
   width: 320px;
+  margin-left: 24px;
 }
 
 .banner-content a {
@@ -182,7 +182,7 @@ section.banner {
   font-size: 0.9rem;
   font-weight: 400;
   color: #687083;
-  margin-top: 30px;
+  margin-top: 32px;
 
 }
 
@@ -291,8 +291,8 @@ section.banner {
 }
 
 .course-holder .textbox span {
-  font-family: "Quattrocento Sans", sans-serif;
-  font-weight: 200;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
   font-size: 0.9rem;
   color: #687083;
   margin-top: 0.5rem;
@@ -302,4 +302,44 @@ section.banner {
 
 .courses-mobile {
   display: none;
+}
+
+/* Section 4 Thesis */
+
+.thesis {
+  display: block;
+}
+
+.thesis h5 {
+  width: 100%;
+  text-align: center;
+  padding-top: 24px;
+  padding bottom: 8px;
+}
+
+.thesis-content {
+  display: inline-flex;
+}
+
+.video {
+  margin-right: 16px;
+}
+
+video {
+  margin-bottom: 24px;
+  border: 2px solid #C5CAD7;
+}
+
+.video-mobile {
+  display: none;
+}
+
+#thesis {
+  border-left: none;
+  margin-top: 32px;
+}
+
+#thesis div:first-child{
+  background-color: #e8e8e8;
+  padding-top: 0px;
 }
